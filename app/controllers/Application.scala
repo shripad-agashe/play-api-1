@@ -7,7 +7,7 @@ import play.api.libs.json.Json
 object Application extends Controller {
   
   def index = Action {
-    Ok(views.html.index("This is new application")) 
+    Ok(views.html.index("This is new application. I have done some modifications.")) 
   }
 
   def movieList =  Action {

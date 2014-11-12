@@ -18,7 +18,7 @@ class IntegrationSpec extends Specification {
 
         browser.goTo("http://localhost:3333/")
 
-        browser.pageSource must contain("This is new application")
+        browser.pageSource must contain("This is new application. I have done some modifications.")
        
       }
     }
